@@ -1,42 +1,19 @@
 /* ---- ---- ---- MAIN ---- ---- ----*/
-.btn-one:hover {
-    background: var(--color-primario);
-    color:white
+
+  .buttons .button {background-color: #F5F4FA;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
   }
-  .btn-one:active {
-    background: var(--color-primario);
-  }
-  
-  .btn-two:hover {
-    background: var(--color-primario);
-    color: white;
-  }
-  .btn-two:active {
-    background: var(--color-primario);
-  }
-  
-  .btn-three:hover {
-    background: var(--color-primario);
-    color: white;
-  }
-  .btn-three:active {
-    background: var(--color-primario);
-  }
-  
-  .btn-four:hover {
-    background: var(--color-primario);
-    color: white;
-  }
-  .btn-four:active {
-    background: var(--color-primario);
-  }
-  
-  .btn-five:hover {
-    background: var(--color-primario);
-    color: white;
-  }
-  .btn-five:active {
-    background: var(--color-primario);
+
+  .buttons .button:hover,
+  .buttons .button:focus,
+  .buttons .button:active {
+    color: #F5F4FA;
+    background-color: var(--color-primario);
   }
   
   .img-one {
